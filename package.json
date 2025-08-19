@@ -1,0 +1,43 @@
+{
+    "name": "@stratton.cologne/vue-smart-toast",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "dist/vue-smart-toast.cjs.js",
+    "module": "dist/vue-smart-toast.es.js",
+    "unpkg": "dist/vue-smart-toast.umd.js",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/vue-smart-toast.es.js",
+            "require": "./dist/vue-smart-toast.cjs.js"
+        },
+        "./style": {
+            "import": "./dist/style.mjs",
+            "require": "./dist/style.cjs"
+        },
+        "./style.css": "./dist/style.css"
+    },
+    "files": [
+        "dist"
+    ],
+    "peerDependencies": {
+        "vue": "^3.5.18"
+    },
+    "devDependencies": {
+        "vue": "^3.5.18",
+        "@vitejs/plugin-vue": "^6.0.1",
+        "typescript": "^5.9.2",
+        "vite": "^7.1.3",
+        "vite-plugin-dts": "^4.5.4",
+        "@types/node": "^24.3.0"
+    },
+    "sideEffects": [
+        "**/*.css",
+        "dist/style.mjs",
+        "dist/style.cjs"
+    ],
+    "scripts": {
+        "build": "vite build --config vite.config.ts && vite build --config vite.style.config.ts"
+    }
+}
