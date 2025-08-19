@@ -1,5 +1,5 @@
 {
-    "name": "@stratton.cologne/vue-smart-toast",
+    "name": "@stratton-cologne/vue-smart-toast",
     "version": "1.0.0",
     "type": "module",
     "main": "dist/vue-smart-toast.cjs.js",
