@@ -1,5 +1,13 @@
 # @stratton.cologne/vue-smart-toast
 
+[![npm version](https://img.shields.io/npm/v/@stratton-cologne/vue-smart-toast.svg)](https://www.npmjs.com/package/@stratton-cologne/vue-smart-toast)
+[![npm downloads (total)](https://img.shields.io/npm/dt/%40stratton-cologne%2Fvue-smart-toast)](https://www.npmjs.com/package/@stratton-cologne/vue-smart-toast)
+[![npm downloads (week)](https://img.shields.io/npm/dw/%40stratton-cologne%2Fvue-smart-toast)](https://www.npmjs.com/package/@stratton-cologne/vue-smart-toast)
+![node >= 18](https://img.shields.io/badge/node-%3E%3D18-brightgreen)
+![typescript](https://img.shields.io/badge/TypeScript-ready-blue)
+![license: MIT](https://img.shields.io/badge/license-MIT-lightgrey)
+
+
 Leichtgewichtiges, typisiertes Toast/Notifications-Paket für **Vue 3** (Vite Library Mode).
 Unterstützt **stabile Keys** (Upsert statt Stapeln), **Positionen**, **Typen/Themes** und **Transitions** – zero-dependency (außer Vue).
 
